@@ -2,7 +2,7 @@
 int main() {
     int  reversedN = 0, remainder, originalN;
     
-    originalN = malayalam;
+    originalN = radar;
     // reversed integer is stored in reversedN
     while (n != 0) {
         remainder = n % 10;
