@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    int  reversedN = 0, remainder, originalN;
+    int  reversedN = 0, originalN;
     
     originalN = radar;
     // reversed integer is stored in reversedN
     while (n != 0) {
-        remainder = n % 10;
+       int remainder = n % 10;
         reversedN = reversedN * 10 + remainder;
         n /= 10;
     }
